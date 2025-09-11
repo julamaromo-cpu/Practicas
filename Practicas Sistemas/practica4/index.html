@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+    .cv-photo {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 0;
+        margin-right: 36px;
+        border: 5px solid var(--accent);
+        background: var(--background);
+        box-shadow: 0 2px 12px rgba(67,164,255,0.12);
+    }
+    </style>
+<!-- Encabezado profesional en negro -->
+<div style="background: #111; color: #fff; padding: 40px 0;">
+    <div class="cv-container" style="background: transparent; box-shadow: none; color: #fff;">
+        <div class="cv-header" style="border-bottom: 2px solid #222;">
+            <img src="Gabito.jpg" alt="Fotografía de Julián Moreno" class="cv-photo" style="border: 5px solid #fff;">
+            <div>
+                <h1 style="color: #fff;">Julián Moreno</h1>
+                <h2 style="color: #b3c2d6;">Curriculum Vitae</h2>
+            </div>
+        </div>
+        <section class="cv-section">
+            <h3 style="color: #43a4ff;">Datos Personales</h3>
+            <ul>
+                <li><strong>Nombre:</strong> Julián Moreno</li>
+                <li><strong>Email:</strong> <a href="mailto:julian.moreno@email.com" style="color: #43a4ff;">julian.moreno@email.com</a></li>
+                <li><strong>Teléfono:</strong> <a href="tel:4778653395" style="color: #43a4ff;">477-865-3395</a></li>
+                <li><strong>Dirección:</strong> Leon, Mexico</li>
+            </ul>
+        </section>
+        <section class="cv-section">
+            <h3 style="color: #43a4ff;">Formación Académica</h3>
+            <ul>
+                <li>Ingeniería en Sistemas - Universidad La Salle <span class="cv-date" style="color: #b3c2d6;">(2020 - Presente)</span></li>
+                <li>Bachillerato - Colegio Maravillas <span class="cv-date" style="color: #b3c2d6;">(2017 - 2020)</span></li>
+            </ul>
+        </section>
+        <section class="cv-section">
+            <h3 style="color: #43a4ff;">Experiencia Laboral</h3>
+            <ul>
+                <li>Prácticas en ITSN Julián <span class="cv-date" style="color: #b3c2d6;">(2023)</span></li>
+                <li>Soporte Técnico - Empresa Ejemplo <span class="cv-date" style="color: #b3c2d6;">(2022)</span></li>
+            </ul>
+        </section>
+        <section class="cv-section">
+            <h3 style="color: #43a4ff;">Habilidades</h3>
+            <ul class="cv-skills">
+                <li style="background: #43a4ff; color: #fff;">HTML, CSS, JavaScript</li>
+                <li style="background: #43a4ff; color: #fff;">Trabajo en equipo</li>
+                <li style="background: #43a4ff; color: #fff;">Resolución de problemas</li>
+            </ul>
+        </section>
+    </div>
+</div>
+<header style="background: #111; color: #fff; padding: 24px 0; text-align: center; border-bottom: 2px solid #222;">
+    <h1 style="margin: 0; font-size: 2.8em; font-weight: 800; letter-spacing: 2px;">Curriculum Vitae</h1>
+    <p style="margin: 8px 0 0 0; font-size: 1.2em; font-weight: 400;">Julián Moreno</p>
+</header>
+    <div class="cv-container">
+        <div class="cv-header">
+            <img src="Gabito.jpg" alt="Fotografía de Julián Moreno" class="cv-photo">
+            <div>
+                <h1>Julián Moreno</h1>
+                <h2>Curriculum Vitae</h2>
+            </div>
+        </div>
+        <section class="cv-section">
+            <h3>Datos Personales</h3>
+            <ul>
+                <li><strong>Nombre:</strong> Julián Moreno</li>
+                <li><strong>Email:</strong> <a href="mailto:julian.moreno@email.com">julian.moreno@email.com</a></li>
+                <li><strong>Teléfono:</strong> <a href="tel:477 865 3395">477-865-3395</a></li>
+                <li><strong>Dirección:</strong> Leon, Mexico</li>
+            </ul>
+        </section>
+        <section class="cv-section">
+            <h3>Formación Académica</h3>
+            <ul>
+                <li>Ingeniería en Sistemas - Universidad La Salle <span class="cv-date">(2020 - Presente)</span></li>
+                <li>Bachillerato - Colegio Maravillas <span class="cv-date">(2017 - 2020)</span></li>
+            </ul>
+        </section>
+        <section class="cv-section">
+            <h3>Experiencia Laboral</h3>
+            <ul>
+                <li>Prácticas en ITSN Julián <span class="cv-date">(2023)</span></li>
+                <li>Soporte Técnico - Empresa Ejemplo <span class="cv-date">(2022)</span></li>
+            </ul>
+        </section>
+        <section class="cv-section">
+            <h3>Habilidades</h3>
+            <ul class="cv-skills">
+                <li>HTML, CSS, JavaScript</li>
+                <li>Trabajo en equipo</li>
+                <li>Resolución de problemas</li>
+            </ul>
+        </section>
+    </div>
+    <style>
+    :root {
+        --primary: #0a2342;
+        --secondary: #185a9d;
+        --accent: #43a4ff;
+        --background: #f5f8fa;
+        --card-bg: #fff;
+        --text-main: #1a2332;
+        --text-light: #b3c2d6;
+    }
+
+    body {
+        background: linear-gradient(135deg, var(--primary) 60%, var(--secondary) 100%);
+        font-family: 'Segoe UI', Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: var(--text-main);
+    }
+
+    .cv-container {
+        max-width: 700px;
+        margin: 48px auto;
+        background: var(--card-bg);
+        border-radius: 20px;
+        box-shadow: 0 8px 32px rgba(10,35,66,0.18);
+        padding: 40px 32px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .cv-container::before {
+        content: "";
+        position: absolute;
+        top: -80px;
+        right: -80px;
+        width: 200px;
+        height: 200px;
+        background: radial-gradient(circle, var(--accent) 0%, transparent 70%);
+        opacity: 0.18;
+        z-index: 0;
+    }
+
+    .cv-header {
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid var(--background);
+        padding-bottom: 28px;
+        margin-bottom: 36px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .cv-photo {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-right: 36px;
+        border: 5px solid var(--accent);
+        background: var(--background);
+        box-shadow: 0 2px 12px rgba(67,164,255,0.12);
+    }
+
+    .cv-header h1 {
+        margin: 0;
+        font-size: 2.4em;
+        color: var(--primary);
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+
+    .cv-header h2 {
+        margin: 8px 0 0 0;
+        font-size: 1.25em;
+        color: var(--secondary);
+        font-weight: 500;
+    }
+
+    .cv-section {
+        margin-bottom: 32px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .cv-section h3 {
+        color: var(--accent);
+        margin-bottom: 14px;
+        font-size: 1.15em;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+
+    .cv-section ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .cv-section li {
+        margin-bottom: 10px;
+        font-size: 1.05em;
+        color: var(--text-main);
+        background: var(--background);
+        border-radius: 8px;
+        padding: 8px 14px;
+        transition: background 0.2s;
+    }
+
+    .cv-section li:hover {
+        background: #eaf3fb;
+    }
+
+    .cv-date {
+        color: var(--secondary);
+        font-size: 0.98em;
+        margin-left: 10px;
+        font-weight: 500;
+    }
+
+    .cv-skills li {
+        display: inline-block;
+        background: var(--accent);
+        color: #fff;
+        padding: 8px 18px;
+        border-radius: 24px;
+        margin: 6px 10px 6px 0;
+        font-size: 1em;
+        font-weight: 500;
+        box-shadow: 0 2px 8px rgba(67,164,255,0.08);
+        transition: background 0.2s;
+    }
+
+    .cv-skills li:hover {
+        background: var(--secondary);
+    }
+
+    a {
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.2s;
+    }
+
+    a:hover {
+        color: var(--secondary);
+        text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+        .cv-container {
+            padding: 16px 8px;
+        }
+        .cv-header {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .cv-photo {
+            margin-bottom: 18px;
+            margin-right: 0;
+        }
+    }
+    </style>
+</body>
+</html>
