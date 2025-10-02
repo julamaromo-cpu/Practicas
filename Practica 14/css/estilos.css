@@ -1,0 +1,48 @@
+:root {
+    --color1: blanchedalmond;
+    --color2: #010a05;
+    --colortexto: #16073f;
+    --colorfondo: #910404;
+}
+
+body {
+    background-color: rgb(178, 190, 194);
+    font-family: Arial, sans-serif;
+
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(6, 1, 22);
+    border: 2px solid rgb(38, 147, 190);
+    border-radius: 10px;
+}
+.cuadro{
+    background: rgb(50, 5, 110);
+    color: blanchedalmond;
+    width: 100px;
+    height: 100px;
+    font-size: 35px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.cuadro:hover {
+    background-color: rgb(92, 84, 66);
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+.morado {
+    background-color: rgb(3, 15, 49);
+}
+.rojo {
+    background-color: rgb(133, 5, 5);
+}
