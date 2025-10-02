@@ -1,0 +1,20 @@
+body {
+background-color: black;
+color: rgba(185, 34, 59, 0.671);
+padding: 0px;
+margin: 0px;
+font-family: Arial, sans-serif;
+text-align: center;
+}
+#encabezado{
+background-color: rgba(158, 148, 219, 0.226);
+border: 2px solid rgb(69, 4, 85);
+width: 80%;
+display: block;
+margin: 0 auto;
+box-shadow: 10px 10px 5px rgb(193, 193, 240);
+
+box-shadow: 17px 9px 41px 9px rgba(74,158,98,0.75);
+-webkit-box-shadow: 17px 9px 41px 9px rgba(74,158,98,0.75);
+-moz-box-shadow: 17px 9px 41px 9px rgba(74,158,98,0.75);
+}
